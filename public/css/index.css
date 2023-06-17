@@ -1,37 +1,65 @@
 .task1 .item {
+  position: absolute;
+  left: 200px;
+  top: 150px;
 }
 
 .task2 .item {
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
 }
 
 .task3 .item {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .container4 {
+  position: relative;
 }
 
 .task4 {
   width: 1000px;
 }
 .task4 .item {
+  position: absolute;
+  left: calc(50% - 40px);
 }
 
 .task5 .item1 {
   background-color: red;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
 }
 .task5 .item2 {
+  position: relative;
+  top: -40px;
+  left: 40px;
+
+  z-index: 1;
 }
 .task5 .item3 {
   background-color: green;
+  position: relative;
+  top: -170px;
+
+  z-index: 3;
 }
 
 .task6 .item {
+  float: left;
 }
 
 .task7 .item {
+  float: right;
 }
 
 .task8 .item1 {
+  float: inline-end;
 }
 .task8 .item2 {
   height: 120px;
